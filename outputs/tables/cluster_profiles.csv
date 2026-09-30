@@ -1,0 +1,5 @@
+Cluster,Cluster_Persona,Customers,Percentage,Avg_Age,Avg_Credit_Limit,Avg_Bill,Avg_Payment,Avg_Repayment_Status,Avg_Max_Delay,Avg_Overdue_Months,Avg_Pay_to_Bill_Ratio,Post_Default_Rate
+0,High Credit / Advance & Prompt Payers,7262,24.21,37.8,262628.75,6553.34,5145.05,-1.273,-0.82,0.13,1.18,14.69
+1,Moderate Credit / Stable Payment Pattern,14213,47.38,34.0,107611.76,33805.88,3181.32,-0.183,0.45,0.3,0.22,16.86
+2,Lower Credit / High Repayment Delay Pattern,4897,16.32,35.0,88149.07,44362.66,2320.52,1.333,2.41,3.87,0.1,55.67
+3,Higher Credit / Higher Payment Activity,3628,12.09,37.4,318679.07,166480.45,17727.09,-0.041,0.26,0.24,0.17,12.29

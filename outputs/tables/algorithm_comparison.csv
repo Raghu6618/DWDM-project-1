@@ -1,0 +1,3 @@
+Algorithm,Sample_Size,Silhouette_Score,Computational_Complexity,Suitability_For_Large_Banking_DW,Primary_Strengths
+K-Means (k=4),2500,0.2341,O(k * N * d) - Linear in N,Production Ready / Highly Scalable,"Direct convergence, scales to millions of records, easily scores new incoming transactions"
+Hierarchical Ward (k=4),2500,0.2219,"O(N^3) time, O(N^2) space - Cubic in N",Benchmark / Small Data Marts Only,Creates intuitive nested dendrogram hierarchy; deterministic linkage

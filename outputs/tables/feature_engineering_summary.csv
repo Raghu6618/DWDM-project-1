@@ -1,0 +1,15 @@
+Feature,Type,Description,Used_for_Clustering,Reason
+LIMIT_BAL,Numerical (Currency NTD),Total sanctioned credit line extended to customer,YES,Fundamental benchmark for purchasing capacity and creditworthiness
+AGE,Numerical (Years),Customer chronological age in completed years,YES,Captures life-stage demographic variations in credit usage
+Avg_Bill_Amt,Numerical (Derived NTD),Mean monthly billed statement balance across 6 months,YES,Indicates overall credit demand and spending magnitude
+Avg_Pay_Amt,Numerical (Derived NTD),Mean monthly payment remitted across 6 observation periods,YES,Reflects customer cash-flow capacity and settlement behavior
+Payment_to_Bill_Ratio,Numerical Ratio,Ratio of total payment remitted to total billed balance,YES,High-signal solvency metric separating full payers from revolvers
+Avg_Repayment_Status,Numerical Score,Mean repayment status score across PAY_0 to PAY_6,YES,Captures overall promptness vs. ongoing revolving/delayed habits
+Max_Repayment_Delay,Integer (Months),Maximum repayment delay (in months) experienced over 6 months,YES,Identifies peak historical financial delinquency exposure
+Delayed_Months_Count,Integer (0 to 6),Number of months where payment was overdue (> 0 months),YES,Measures delinquency frequency and repayment consistency
+Total_Bill_Amt,Numerical (NTD),Sum of 6-month statement bills,NO,"Redundant with Avg_Bill_Amt (perfect collinearity, r=1.0)"
+Total_Pay_Amt,Numerical (NTD),Sum of 6-month payments,NO,"Redundant with Avg_Pay_Amt (perfect collinearity, r=1.0)"
+Bill_Variability,Numerical (Std NTD),Standard deviation of monthly statement amounts,NO,High collinearity with average bill magnitude; secondary noise
+Pay_Variability,Numerical (Std NTD),Standard deviation of monthly payment remittances,NO,Captures payment volatility; excluded to preserve cluster parsimony
+ID,Identifier,Customer account identification index,NO (EXCLUDED),Arbitrary sequential key with zero analytical/behavioral variance
+Y,Binary Target (0/1),Default payment status next month (October 2005),NO (EXCLUDED),Supervised target variable; excluded to maintain unsupervised learning

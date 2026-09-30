@@ -1,0 +1,2 @@
+Optimal_K,Random_State,Features_Used,Total_Customers,Silhouette_Score,Davies_Bouldin,Calinski_Harabasz,Inertia,PCA1_Var,PCA2_Var,Overall_Default_Rate
+4,42,"LIMIT_BAL, AGE, Avg_Bill_Amt, Avg_Pay_Amt, Payment_to_Bill_Ratio, Avg_Repayment_Status, Max_Repayment_Delay, Delayed_Months_Count",30000,0.2443,1.397,7596.62,136381.97,35.44,20.72,22.12

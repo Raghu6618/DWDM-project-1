@@ -1,0 +1,9 @@
+Feature,PC1_Loading,PC2_Loading
+LIMIT_BAL,-0.2853,0.4638
+AGE,-0.0638,0.1612
+Avg_Bill_Amt,0.0678,0.6431
+Avg_Pay_Amt,-0.1446,0.5378
+Payment_to_Bill_Ratio,-0.2302,-0.1487
+Avg_Repayment_Status,0.548,0.169
+Max_Repayment_Delay,0.5327,0.0682
+Delayed_Months_Count,0.502,0.027

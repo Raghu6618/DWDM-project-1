@@ -1,0 +1,5 @@
+Cluster,Cluster_Persona,Customers,Non_Default_Count,Default_Count,Default_0_Pct,Default_1_Pct
+0,High Credit / Advance & Prompt Payers,7262,6195,1067,85.31,14.69
+1,Moderate Credit / Stable Payment Pattern,14213,11816,2397,83.14,16.86
+2,Lower Credit / High Repayment Delay Pattern,4897,2171,2726,44.33,55.67
+3,Higher Credit / Higher Payment Activity,3628,3182,446,87.71,12.29
